@@ -1,19 +1,21 @@
 # 🎓 DiplomaStore Smart Contract
 
-DiplomaStore is a very simple and beginner-friendly Solidity smart contract that allows a contract owner to issue and revoke digital diplomas on the blockchain. It is a perfect first project for learning smart contract development, verification, and public credential storage.
+DiplomaStore is a beginner-friendly Solidity project that demonstrates how blockchain can be used to securely store and verify academic certificates. This contract allows an admin (owner) to issue and revoke diplomas that anyone can later verify on-chain.
+
+Perfect for learning smart contract fundamentals and Web3 credential systems!
 
 ---
 
 ## 🧩 What It Does
 
-- The person who deploys the contract becomes the **owner**
+- The contract deployer becomes the **owner**
 - The owner can:
-  - Issue new diplomas with **student name** and **course name**
-  - Revoke previously issued diplomas
+  ✔ Issue blockchain-based diplomas  
+  ✔ Revoke previously issued diplomas  
 - Anyone can:
-  - View & verify diploma details by ID
+  🔍 Fetch and verify diploma details by ID
 
-This helps store academic credentials transparently and permanently on-chain!
+All data remains transparently stored on the blockchain.
 
 ---
 
@@ -21,19 +23,22 @@ This helps store academic credentials transparently and permanently on-chain!
 
 | Feature | Description |
 |--------|-------------|
-| Blockchain-Verified Certificates | Diplomas cannot be edited once issued |
-| Owner-Only Controls | Only the admin can issue or revoke |
-| Public Verification | Anyone can check diploma validity |
-| Easy to Understand | Great for beginners learning Solidity |
+| Secure Diploma Storage | Certificates are stored immutably on-chain |
+| Admin Privileges | Only owner can issue/revoke diplomas |
+| Public Verification | Anyone can view authenticity |
+| Easy to Understand | Great first smart contract project |
 
 ---
 
 ## 🔗 Deployed Smart Contract Link
 
-**Contract Address:**  
+Contract Address (placeholder):  
 `XXX`
 
-(Replace `XXX` after deploying on your blockchain network such as Flare, Ethereum, or Testnet)
+🔍 Explorer link (example reference):  
+https://testnet.routescan.io/address/0x69a9F5f8ce1Cb5d4d9522e12EEfaeEc8D52B8E46/contract/114/code
+
+Replace `XXX` with your own contract address once finalized.
 
 ---
 
